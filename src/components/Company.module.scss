@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Company__container {
+    background-color: #fffffb;
+    padding: 0 5%;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    .title {
+        padding-top: 5rem;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    } .text {
+        padding-bottom: 2rem;
+    }
+    .btnlogin {
+        background-color: #33519f;
+        text-align: center;
+        color: white;
+        margin-bottom: 5rem;
+        padding: 0.5rem 3rem;
+        border-radius: 1rem;
+    }
+    .btnlogin:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .Company__container {  
+        padding: 0 10%;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 5vh;
+        padding-top: 5vh;
+        .title {
+            font-size: 3.5rem;
+        }
+        .text {
+            font-size: 1.2rem;
+        }
+        .btnlogin {
+            padding: 0.5rem 3rem;
+            border-radius: 1rem;
+        }
+    }
+}

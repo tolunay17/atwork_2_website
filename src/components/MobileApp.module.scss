@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App__container {
+    background-color: #8da979;
+
+.App_first__container {
+    // padding: 0 5%;
+    padding: 5rem 0rem;
+    
+    .mobileapp {
+        width: 100%;
+    }
+}
+    .title {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    padding: 0 5%;
+    }
+    .App__text {
+        color: white;
+        padding: 0 5%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .logoqr {
+        padding: 0 5%;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .App__first__container { 
+        // width: 60%;
+    padding: 0;    
+    }
+    .App__container {
+        display: flex;
+        padding: 5% 5%;
+        .title {
+            font-size: 4rem;
+            padding-bottom: 2rem;
+        }
+        .App_second__container {
+            padding: 0 10%;
+        }
+    }
+}

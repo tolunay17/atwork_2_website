@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Footer__container {
+    display: flex;
+    width: 100%;
+    // width: 35%;
+    justify-content: space-between;
+    padding: 0 5%;
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 100M;
+        width: 25%;
+        .facebook {
+            width: 2rem;
+        }
+        .insta {
+            width: 2rem;
+        }
+    }
+
+}
+@media screen and (min-width: 767px) {
+    .Footer__container {
+        display: flex;
+        width: 35%;
+    }
+}
